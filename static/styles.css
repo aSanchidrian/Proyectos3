@@ -1,0 +1,15 @@
+body
+{
+	background-color: #dadada;
+	font-family: arial;
+	text-decoration: none;
+}
+
+header
+{
+	text-indent: 3%;
+	color: white;
+	background-color: black;
+	padding: 5px 0;
+	margin: -8px;
+}
