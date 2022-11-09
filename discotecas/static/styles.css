@@ -1,0 +1,35 @@
+#info{
+    width: 245px;
+    height: 250px;
+    margin-right: 10px;
+}
+
+#imagenDisco{
+    margin-right: 30px;
+    
+}
+
+#imagenesDisco{
+    margin-top: 150px;
+}
+
+#menuIcon{
+    width: 100px;
+    height: 100px;
+}
+
+#buscadorIcon{
+    position: absolute;
+    top: -90px;
+    left: 1400px;
+    width: 300px;
+    height: 300px;
+}
+
+h1{
+    font-size: 70px;
+    position: absolute;
+    left: 200px;
+    top:-30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
