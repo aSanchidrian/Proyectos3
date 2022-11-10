@@ -1,45 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="./static/styles.css">
+        <script src="main.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+    <header class="header">
+        <div class="container">
+            <div class="btn-menu">
+                <label for="btn-menu">&#9776;</label>
+            </div>
+            <div class="logo" onclick ='clickDiv(this);'>
+                <h1>Discotekeo</h1>
+            </div>
+                <nav class="menu">
+                    <input id="buscar" class="buscar" placeholder="Buscar...">
+                    <button id="buscador" class="btn">Buscar</button>
+                    <!-- <button id="login" class="btn">Login</button>
+                    <button id="signup" class="btn">Sign up</button> -->
+                    <a>login</a>
+                    <a>Register</a>
+                </nav>
 
-
-<head>
-    <link rel="stylesheet" href="static/styles.css" />
-
-</head>
-
-<body>
-
-<header class="header">
-    <div class="container">
-        <div class="btn-menu">
-            <label for="btn-menu">&#9776;</label>
         </div>
-        <div class="logo">
-            <h1>Discotekeo</h1>
-        </div>
-            <nav class="menu">
-                <input id="buscar" class="buscar" placeholder="Buscar...">
-                <button id="btn-buscador" class="btn-buscador">Buscar</button>
-                <a>Login</a>
-                <a>Register</a>
+    </header>
+    <div class="capa"></div>
+    <!--	--------------->
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <a href="/discotecas/index.html">Discotecas</a>
+                <a href="/fiestas/index.html">Fiestas</a>
+                <a href="/eventos/index.html">Eventos</a>
+                <a href="/contacto/index.html">Contacto</a>
             </nav>
-
+            <label for="btn-menu">&#10006;</label>
+        </div>
     </div>
-</header>
-<div class="capa"></div>
-<!--	--------------->
-<input type="checkbox" id="btn-menu">
-<div class="container-menu">
-    <div class="cont-menu">
-        <nav>
-            <a href="#">Discotecas</a>
-            <a href="#">Fiestas</a>
-            <a href="#">Eventos</a>
-            <a href="#">Contacto</a>
-        </nav>
-        <label for="btn-menu">&#10006;</label>
-    </div>
-</div>
-</body>
-
-
+    </body>
+</html>
