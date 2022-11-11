@@ -1,6 +1,6 @@
 function clickDiv()
 {
-    window.location.href = '/index.html';
+    window.location.href = '../Inicio/index.html';
     return false;
 }
 
