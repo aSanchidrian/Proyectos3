@@ -1,77 +1,111 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-        <link rel="stylesheet" href="./static/styles.css">
-        <script src="./main.js"></script>
-        <title>Document</title>
-    </head>
-    <body>
-    <header class="header">
-        <div class="container">
-            <div class="btn-menu">
-                <label for="btn-menu">&#9776;</label>
-            </div>
-            <div class="logo" onclick ='clickDiv();'>
-                <h1>Discotekeo</h1>
-            </div>
-                <nav class="menu">
-                    <input id="buscar" class="buscar" placeholder="Buscar...">
-                    <button id="buscador" class="btn">Buscar</button>
-                    <!-- <button id="login" class="btn">Login</button>
-                    <button id="signup" class="btn">Sign up</button> -->
-                    <a>login</a>
-                    <a>Register</a>
-                </nav>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Discotekeo</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+    <link href="./static/bootstrap.min.css" rel="stylesheet">
+    <link href="./static/carousel.css" rel="stylesheet">
+    <script src="./bootstrap.bundle.min.js"></script>
+    
+  </head>
+  <body>
+<!-- Esto es el menu y la barra de busqueda -->
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../Inicio/index.html">Discotekeo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+          <!-- menu de navegacion (poner linkados con el resto de paginas) -->
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../discotecas/index.html">Discotecas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../eventos/index.html">Eventos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../fiestas/index.html">Fiestas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contacto/contacto.html">Contacto</a>
+          </li>
+        </ul>
+        <!-- Barra para buscar -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
 
-        </div>
-    </header>
-    <div class="capa"></div>
-    <!--	--------------->
-    <input type="checkbox" id="btn-menu">
-    <div class="container-menu">
-        <div class="cont-menu">
-            <nav>
-                <a href="../discotecas/index.html">Discotecas</a>
-                <a href="../fiestas/index.html">Fiestas</a>
-                <a href="../eventos/index.html">Eventos</a>
-                <a href="../contacto/contacto.html">Contacto</a>
-            </nav>
-            <label for="btn-menu">&#10006;</label>
-        </div>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+<main>
+    <!-- carrusel -->
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <div class="container-info">
-        <div class="info-border">
-            <div class="info-titulo">
-                <h1 class="titulo-info">Que somos?</h1>
-            </div>
-            <div class="info-texto">
-                <p>Somos un grupo de estudiantes de Ingenieria del Software de tercer año que han decidido crear una pagina web
-                    Somos un grupo de estudiantes de Ingenieria del Software de tercer año que han decidido crear una pagina web
-                    Somos un grupo de estudiantes de Ingenieria del Software de tercer año que han decidido crear una pagina web</p>
-            </div>
+    <!-- fotos carrusel -->
+    <div class="carousel-inner">
+        <!-- 1 -->
+      <div class="carousel-item active">
+
+        <img style="opacity: 0.3;" src="https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/277531808_10158997043021279_1867017483165503019_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=0debeb&_nc_ohc=k1LHZ8h3vhsAX_049Ef&_nc_ht=scontent-mad1-1.xx&oh=00_AfCQl-RnT2ttbA82r-phmFKz2wJUY3vOfv52H6gO22-Eaw&oe=63888374" alt="Girl in a jacket" width="100%" class="bd-placeholder-img"></img>
+
+        <div class="container">
+          <div class="carousel-caption text-start" id="txtCabeceraJ">
+            <h1>Contactanos.</h1>
+            <p>Somos una empresa centrada en vuestra facilidad a la hora de salir por la noche</p>
+          </div>
         </div>
-    </div>
-    <div class="container-info2">
-        <div class="info-border">
-            <div class="info-titulo">
-                <h1 class="titulo-info">Que somos?</h1>
-            </div>
-            <div class="info-texto">
-                <p>Somos un grupo de estudiantes de Ingenieria del Software de tercer año que han decidido crear una pagina web
-                    Somos un grupo de estudiantes de Ingenieria del Software de tercer año que han decidido crear una pagina web
-                    Somos un grupo de estudiantes de Ingenieria del Software de tercer año que han decidido crear una pagina web
-                    Somos un grupo de estudiantes de Ingenieria del Software de tercer año que han decidido crear una pagina web
-                    Somos un grupo de estudiantes de Ingenieria del Software de tercer año que han decidido crear una pagina web
-                    Somos un grupo de estudiantes de Ingenieria del Software de tercer año que han decidido crear una pagina web
-                    Somos un grupo de estudiantes de Ingenieria del Software de tercer año que han decidido crear una pagina web
-                    Somos un grupo de estudiantes de Ingenieria del Software de tercer año que han decidido crear una pagina web
-                    Somos un grupo de estudiantes de Ingenieria del Software de tercer año que han decidido crear una pagina web</p>
-            </div>
+      </div>
+      <!-- 2 -->
+      <div class="carousel-item">
+          <img style="opacity: 0.3;" src="https://img.freepik.com/foto-gratis/amigos-tintinean-vasos-bebida-bar-moderno_1150-18971.jpg?w=1380&t=st=1669555418~exp=1669556018~hmac=0ed6b79210dd2b768a66eb460704ecdc39ffa41c529317822582e98d15240729" alt="Girl in a jacket" width="100%" class="bd-placeholder-img"></img>
+
+        <div class="container">
+          <div class="carousel-caption" id="txtCabeceraJ">
+            <h1>Pues de ejemplo.</h1>
+            <p>pues la descripcion.</p>
+          </div>
         </div>
+      </div>
+      <!-- 3 -->
+      <div class="carousel-item">
+        <img style="opacity: 0.3;" src="https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/277558474_10158997041331279_6793278967041450915_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0debeb&_nc_ohc=1o5ft1ypU-EAX_-yklA&_nc_ht=scontent-mad1-1.xx&oh=00_AfBYJFhnyWiVqEn_9tDFvBJCYB2Ptn_JIc_YQW_fbC1eDw&oe=6387995B" alt="Girl in a jacket" width="100%" class="bd-placeholder-img"></img>
+
+        <div class="container">
+          <div class="carousel-caption text-end" id="txtCabeceraJ">
+            <h1>Mas ejemplo.</h1>
+            <p>Mas descripcion.</p>
+          </div>
+        </div>
+      </div>
     </div>
-    </body>
+    
+    <!-- botones laterales -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- termina carrusel -->
+</main>
+  </body>
 </html>
