@@ -241,9 +241,6 @@ sub {
 sup {
   top: -0.5em;
 }
-a:hover {
-  color: var(--bs-link-hover-color);
-}
 a:not([href]):not([class]),
 a:not([href]):not([class]):hover {
   color: inherit;

@@ -110,21 +110,35 @@
 }
 
 .titulos{
+    position: relative;
+    top:20px;
+    left:50px;
     font-size: 50px;
+    font-weight: 00;
+}
+
+.contenido{
+    position: relative;
+    margin: 80px 40px 40px 50px;
+    font-size:25px;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+body{
+    background-image:url("fondo.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
 }
 
 
 /* Contenido */
 
 
-p{
+.titulo{
     font-size: 50px;
     color: white;
     padding-top: 150px;
     padding-left:50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-a{
-    
 }
