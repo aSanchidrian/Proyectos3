@@ -1,95 +1,129 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="./static/styles.css">
-    <script src="./main.js"></script>
-    <title>Discotecas</title>
-</head>
-<body>
-    <header class="header">
-        <div class="container">
-            <div class="btn-menu">
-                <label for="btn-menu">&#9776;</label>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <link href="../Inicio/static/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./static/styles.css">
+        <script src="./main.js"></script>
+        <title>Eventos</title>
+    </head>
+    <body>
+        <!-- Esto es el menu y la barra de busqueda -->
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../Inicio/index.html">Discotekeo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <!-- menu de navegacion (poner linkados con el resto de paginas) -->
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../discotecas/index.html">Discotecas</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../eventos/index.html">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../fiestas/index.html">Fiestas</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../contacto/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <!-- Barra para buscar -->
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+                </div>
             </div>
-            <div class="logo" onclick ='clickDiv(this);'>
-                <h1>Discotekeo</h1>
-            </div>
-                <nav class="menu">
-                    <input id="buscar" class="buscar" placeholder="Buscar...">
-                    <button id="buscador" class="btn">Buscar</button>
-                    <!-- <button id="login" class="btn">Login</button>
-                    <button id="signup" class="btn">Sign up</button> -->
-                    <a>login</a>
-                    <a>Register</a>
-                </nav>
-
-        </div>
-    </header>
-    <div class="capa"></div>
-    <!--	--------------->
-    <input type="checkbox" id="btn-menu">
-    <div class="container-menu">
-        <div class="cont-menu">
-            <nav>
-                <a href="../discotecas/index.html">Discotecas</a>
-                <a href="../fiestas/index.html">Fiestas</a>
-                <a href="../eventos/index.html">Eventos</a>
-                <a href="../contacto/contacto.html">Contacto</a>
             </nav>
-            <label for="btn-menu">&#10006;</label>
-        </div>
-    </div>
-    <!-- -------------------------------------------------------------------------- -->
-    <div>
-        <!-- <img id="menuIcon" src="/static/menu.png"> -->
-        <p> EVENTOS </p>
-        <!-- <img id="buscadorIcon" src="/static/buscador.png"> -->
-    </div>
+        </header>
 
-    <div id="scroll">
-        <div id="imagenesDisco">
-            <img class="imagenDisco" src="./static/descarga.png">
-            <img class="imagenDisco" src="./static/descarga.png">
-            <img class="imagenDisco" src="./static/descarga.png">
-            <img class="imagenDisco" src="./static/descarga.png">
-            <img class="imagenDisco" src="./static/descarga.png">
-            <img class="imagenDisco" src="./static/descarga.png">
-            <img class="imagenDisco" src="./static/descarga.png">
-        </div>
+        <!-- -------------------------------------------------------------------------- -->
 
-        <div>
-            <img class="info" src="./static/informacion.png">
-            <img class="info" src="./static/informacion.png">
-            <img class="info" src="./static/informacion.png">
-            <img class="info" src="./static/informacion.png">
-            <img class="info" src="./static/informacion.png">
-            <img class="info" src="./static/informacion.png">
-            <img class="info" src="./static/informacion.png">
-        </div>
+        <main>
+            <div class="titulo" style="position:relative; bottom:70px; font-family: Helvetica, sans-serif">
+                <p> EVENTOS </p>
+            </div>
 
-        <div id="imagenesDisco2">
-            <img class="imagenDisco" src="./static/descarga.png">
-            <img class="imagenDisco" src="./static/descarga.png">
-            <img class="imagenDisco" src="./static/descarga.png">
-            <img class="imagenDisco" src="./static/descarga.png">
-            <img class="imagenDisco" src="./static/descarga.png">
-            <img class="imagenDisco" src="./static/descarga.png">
-            <img class="imagenDisco" src="./static/descarga.png">
-        </div>
+                <!-- Slideshow container -->
+            <div class="slideshow-container">
 
-        <div>
-            <img class="info" src="./static/informacion.png">
-            <img class="info" src="./static/informacion.png">
-            <img class="info" src="./static/informacion.png">
-            <img class="info" src="./static/informacion.png">
-            <img class="info" src="./static/informacion.png">
-            <img class="info" src="./static/informacion.png">
-            <img class="info" src="./static/informacion.png">
-        </div>
-    </div>
-</body>
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade-discotecas">
+                    <div class="contenedor">
+                        <img class="premier" src="static/foto-premier.jpg">
+                        <div class="text">
+                            <h2 class="titulos"> Premieres </h2>
+                            <p class="contenido"> 
+                                (Texto de ejemplo) Podrás encontrar las premieres de los estrenos de 
+                                las películas más esperadas de la cartelera. En ellas podrás acceder 
+                                a ver las películas en exclusiva y conocer a los actores de estas. 
+                            </p>
+                            <button type="button" class="btn btn-dark botones-vermas">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlides fade-discotecas">
+                    <div class="contenedor">
+                        <img src="static/discoteca-barcelo-madrid.jpg">
+                        <div class="text">
+                            <h2 class="titulos"> Ferias </h2>
+                            <p class="contenido"> 
+                                (Texto de ejemplo)Kapital es una discoteca que se situa en la calle atocha está muy bien,
+                                va mucha gente, sobre todo gente extrangera, tiene 7 plantas y cada una
+                                es de un tipo de música distinto: reggaetón, electrónica etc. Es muy 
+                                recomendable para gente joven aunque también hay gente más adulta. De 
+                                precio está bien y muchas veces hay promociones dependiendo del día y 
+                                la época del año.
+                            </p>
+                            <button type="button" class="btn btn-dark botones-vermas">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlides fade-discotecas">
+                    <div class="contenedor">
+                        <img src="static/discoteca-fabrik-madrid.jpg">
+                        <div class="text">
+                            <h2 class="titulos"> Conciertos </h2>
+                            <p class="contenido"> 
+                                (Texto de ejemplo)Kapital es una discoteca que se situa en la calle atocha está muy bien,
+                                va mucha gente, sobre todo gente extrangera, tiene 7 plantas y cada una
+                                es de un tipo de música distinto: reggaetón, electrónica etc. Es muy 
+                                recomendable para gente joven aunque también hay gente más adulta. De 
+                                precio está bien y muchas veces hay promociones dependiendo del día y 
+                                la época del año.
+                            </p>
+                            <button type="button" class="btn btn-dark botones-vermas">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center; position:relative; bottom:20px;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </main>
+    </body>
 </html>

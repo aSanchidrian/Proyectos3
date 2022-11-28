@@ -94,48 +94,48 @@
 }
 
 .contenedor{
-    position:relative;
-    width:900px; 
-    height:500px; 
-    top: 100px;
-    left: 50px;
-    background-color: #f2f2f2;
-    border-radius: 6px;
-    overflow: hidden;
-    border: solid 5px #ccc;
-    box-shadow: 0px 0px 100px 0px #818181;
+  position:relative;
+  width:900px; 
+  height:500px; 
+  top: 100px;
+  left: 50px;
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  overflow: hidden;
+  border: solid 5px #ccc;
+  box-shadow: 0px 0px 100px 0px #818181;
 }
 
 .contenedor img{
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .titulos{
-    position: relative;
-    top:20px;
-    left:50px;
-    font-size: 50px;
-    font-weight: 00;
+  position: relative;
+  top:20px;
+  left:50px;
+  font-size: 50px;
+  font-weight: 00;
 }
 
 .contenido{
-    position: relative;
-    margin: 80px 40px 40px 50px;
-    font-size:25px;
-    font-weight: 400;
-    overflow: hidden;
+  position: relative;
+  margin: 80px 40px 40px 50px;
+  font-size:25px;
+  font-weight: 400;
+  overflow: hidden;
 }
 
 body{
-    background-image:url("fondo2.gif");
-    background-repeat: no-repeat;
-    background-size: 100% 130%;
+  background-image:url("fondo2.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 130%;
 }
 
 .botones-vermas{
-    position: relative;
-    left: 45%;
+  position: relative;
+  left: 45%;
 }
 
 
@@ -143,9 +143,9 @@ body{
 
 
 .titulo{
-    font-size: 50px;
-    color: white;
-    padding-top: 150px;
-    padding-left:50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  color: white;
+  padding-top: 150px;
+  padding-left:50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
