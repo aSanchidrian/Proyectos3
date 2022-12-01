@@ -154,6 +154,7 @@ body {
 body{
   background-image:url("fondo.jpg");
   background-size: cover;
+  background-color: rgba(0, 0, 0, .0.3);
 }
 
 #imgcolo{
