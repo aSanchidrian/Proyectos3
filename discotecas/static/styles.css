@@ -79,7 +79,7 @@
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #a19c9c00;
 }
 
 /* Fading animation */
@@ -128,7 +128,7 @@
 }
 
 body{
-  background-image:url("fondo2.gif");
+  background-image:url("fondo.webp");
   background-repeat: no-repeat;
   background-size: 100% 130%;
 }
