@@ -79,8 +79,9 @@
   }
   
   .active, .dot:hover {
-    background-color: #717171;
+    background-color: #a19c9c00;
   }
+  
   
   /* Fading animation */
   .fade-discotecas {

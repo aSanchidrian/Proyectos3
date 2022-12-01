@@ -37,3 +37,8 @@ body{
     border-bottom: 2px solid #c7c7c7;
     padding-bottom: 5px;
 }
+
+.active, .dot:hover {
+    background-color: #a19c9c00;
+  }
+  
