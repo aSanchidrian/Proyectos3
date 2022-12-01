@@ -12,18 +12,6 @@
     <list default="true" id="9e4498ff-7299-43c0-8337-6d8263674116" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contacto/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacto/contacto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discotecas/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/discotecas/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discotecas/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/discotecas/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discotecas/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/discotecas/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eventos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/eventos/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eventos/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/eventos/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eventos/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/eventos/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fiestas/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fiestas/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fiestas/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/fiestas/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fiestas/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/fiestas/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Inicio/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Inicio/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Inicio/static/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
