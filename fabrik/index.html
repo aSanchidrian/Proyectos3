@@ -1,0 +1,116 @@
+<!doctype html>
+<!-- html Fabrik -->
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+		<title>Fabrik</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="./static/styles.css">
+		<link href="./static/bootstrap.min.css" rel="stylesheet">
+		<script src="./bootstrap.bundle.min.js"></script>
+
+    </head>
+    <body>
+   <!-- Esto es el menu y la barra de busqueda -->
+	<header>
+	  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="../Inicio/index.html">Discotekeo</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarCollapse">
+			  <!-- menu de navegacion (poner linkados con el resto de paginas) -->
+			<ul class="navbar-nav me-auto mb-2 mb-md-0">
+			  <li class="nav-item">
+				<a class="nav-link active" href="#">Inicio</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" aria-current="page" href="../discotecas/index.html">Discotecas</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="../eventos/index.html">Eventos</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="../fiestas/index.html">Fiestas</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="../contacto/contacto.html">Contacto</a>
+			  </li>
+			</ul>
+			<!-- Barra para buscar -->
+			<form class="d-flex" role="search">
+			  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+			  <button class="btn btn-outline-success" type="submit">Buscar</button>
+			</form>
+		  </div>
+		</div>
+	  </nav>
+	</header>
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+	<!-- aquí empieza el carrusel -->
+	<main>
+
+    <div id="carousel">
+
+       <div class="hideLeft">
+        <img src="https://fabrikclub.com/wp-content/uploads/2022/02/20220226_fabrik-48.jpg?w=1000&h=1000&s=1">
+      </div>
+
+      <div class="prevLeftSecond">
+        <img src="https://images.xceed.me/clubs/gallery/fabrik-madrid-club-madrid-xceed-1-3033.jpg?w=1000&h=1000&s=1">
+      </div>
+
+      <div class="prev">
+        <img src="fabrik.jpg" style="width:370px; height:365px;"> 
+      </div>
+
+      <div class="selected">
+        <img src="https://fabrikclub.com/wp-content/uploads/2022/04/FEED-50.png">
+      </div>
+
+      <div class="next">
+        <img class "editar" src="http://fabrikclub.com/wp-content/uploads/2020/03/home_cristal-scaled.jpg?w=1000&h=2000&s=1">
+      </div>
+
+      <div class="nextRightSecond">
+        <img src="https://i.pinimg.com/originals/fc/17/57/fc17575964d72966926be8f629d83e23.jpg">
+      </div>
+
+      <div class="hideRight">
+        <img src="https://wololosound.com/wp-content/uploads/20220319_fabrik-5-1.jpg?w=1000&h=1000&s=1">
+      </div>
+
+    </div>
+
+<!--  <div class="buttons">
+      <button id="prev">Prev</button>
+      <button id="next">Next</button>
+    </div>  -->
+
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="./main.js"></script>
+
+	<!-- aquí termina el carrusel -->
+	<!-- aquí empiezan los enlaces a las otras páginas -->
+
+	<div class="iconos">
+		<a href="https://goo.gl/maps/xqBsKyspQpc5AS4s6" target="_blank"><img src="ubicacion.png" style="width:20px; height:20px;"> 
+		Av. de la Industria, 82 · 28970 · Humanes de Madrid · Madrid<p></p></a>
+		<a href="https://feverup.com/es/madrid/fabrik" target="_blank"><img src="entradas.png" style="width:20px; height:20px;"> 
+		Entradas y eventos<p></p></a>
+		<a href="https://es-es.facebook.com/fabrikmadrid/photos/" target="_blank"><img src="fotos.png" style="width:20px; height:15px;"> 
+		Fotos<p></p></a>
+		<a href="https://fabrikclub.com/terminos/" target="_blank"><img src="normas.png" style="width:17px; height:20px;"> 
+		Información y normas<p></p></a>
+		<a href="https://fabrikclub.com/vip-experience-2/" target="_blank"><img src="ofertas.png" style="width:20px; height:20px;"> 
+		Ofertas<p></p></a>
+	</div>
+	
+	<!-- aquí terminan los enlaces a las otras páginas -->
+	
+	</main>
+	
+    </body>
+</html>
