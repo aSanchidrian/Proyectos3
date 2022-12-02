@@ -290,6 +290,7 @@ figure {
 img,
 svg {
   vertical-align: middle;
+  object-fit: cover;
 }
 table {
   caption-side: bottom;
