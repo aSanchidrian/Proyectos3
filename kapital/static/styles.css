@@ -1,0 +1,119 @@
+/* css Kapital*/
+
+body{
+    background: url(https://img2.rtve.es/v/6659932?w=1600&preview=1659083238581.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+/*Comienzo css página discoteca*/
+
+/*Empiezan los enlaces de la página discoteca*/
+
+.iconos{
+	margin-left: 40%;
+	margin-top: 12%;
+	margin-bottom: 10%;
+	color: #FFFFFF;
+}
+.iconos a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.iconos a:hover{
+    border-bottom: 2px solid #FFFFFF;
+    padding-bottom: 5px;
+}
+
+/*Terminan los enlaces de la página discoteca*/
+
+
+/*Aqui empieza el carrusel*/
+html, body, main {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#carousel {
+  position: relative;
+  height: 400px;
+  top: 40%;
+  transform: translateY(-50%);
+  overflow: hidden;
+}
+#carousel div {
+  position: absolute;
+  transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+  opacity: 1;
+}
+#carousel div img {
+  width: 400px;
+  transition: width 1s;
+}
+#carousel div.hideLeft {
+  left: 0%;
+  opacity: 0;
+  transform: translateY(50%) translateX(-50%);
+}
+#carousel div.hideLeft img {
+  width: 200px;
+}
+#carousel div.hideRight {
+  left: 100%;
+  opacity: 0;
+  transform: translateY(50%) translateX(-50%);
+}
+#carousel div.hideRight img {
+  width: 200px;
+}
+#carousel div.prev {
+  z-index: 5;
+  left: 30%;
+  transform: translateY(50px) translateX(-50%);
+}
+#carousel div.prev img {
+  width: 300px;
+}
+#carousel div.prevLeftSecond {
+  z-index: 4;
+  left: 15%;
+  transform: translateY(50%) translateX(-50%);
+  opacity: 0.7;
+}
+#carousel div.prevLeftSecond img {
+  width: 200px;
+}
+#carousel div.selected {
+  z-index: 10;
+  left: 50%;
+  transform: translateY(0px) translateX(-50%);
+}
+#carousel div.next {
+  z-index: 5;
+  left: 70%;
+  transform: translateY(50px) translateX(-50%);
+}
+#carousel div.next img {
+  width: 300px;
+}
+#carousel div.nextRightSecond {
+  z-index: 4;
+  left: 85%;
+  transform: translateY(50%) translateX(-50%);
+  opacity: 0.7;
+}
+#carousel div.nextRightSecond img {
+  width: 200px;
+}
+
+/*Aquí termina el carrusel*/
+
+/*
+.buttons {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+}*/
