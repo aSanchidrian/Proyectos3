@@ -10,11 +10,12 @@
     <link href="./static/bootstrap.min.css" rel="stylesheet" />
     <link href="./static/carousel.css" rel="stylesheet" />
     <script src="./bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
 
     <style>
       body,
       html {
-          height: 100%;
+        height: 100%;
       }
 
       .bgimage {
@@ -26,8 +27,8 @@
 
         /* Center and scale the image nicely */
         background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
       }
 
       /* .bg-img div {
@@ -133,9 +134,8 @@
                   >Contacto</a
                 >
               </li>
-              <h1 class="nav-link">||</h1>
               <li class="nav-item">
-                <a class="nav-link" href="../login/index.html">Login</a>
+                <a class="nav-link" href="../login/index.html">Log in</a>
               </li>
             </ul>
             <!-- Barra para buscar -->
@@ -176,9 +176,8 @@
 
             <div class="col-lg-6 mb-5 mb-lg-0">
               <div class="card">
-                <div class="card-body py-5 px-md-5">
+                <div class="card-body py-4 px-md-5">
                   <form>
-                    <!-- 2 column grid layout with text inputs for the first and last names -->
                     <div class="row">
                       <div class="col-md-6 mb-4">
                         <div class="form-outline">
@@ -188,7 +187,7 @@
                             class="form-control"
                           />
                           <label class="form-label" for="form3Example1"
-                            >First name</label
+                            >Nombre</label
                           >
                         </div>
                       </div>
@@ -200,7 +199,7 @@
                             class="form-control"
                           />
                           <label class="form-label" for="form3Example2"
-                            >Last name</label
+                            >Apellido</label
                           >
                         </div>
                       </div>
@@ -214,7 +213,7 @@
                         class="form-control"
                       />
                       <label class="form-label" for="form3Example3"
-                        >Email address</label
+                        >Correo electronico</label
                       >
                     </div>
 
@@ -226,7 +225,7 @@
                         class="form-control"
                       />
                       <label class="form-label" for="form3Example4"
-                        >Password</label
+                        >Contraseña</label
                       >
                     </div>
 
@@ -240,7 +239,7 @@
                         checked
                       />
                       <label class="form-check-label" for="form2Example33">
-                        Subscribe to our newsletter
+                        Acepto terminos y condiciones
                       </label>
                     </div>
 
@@ -248,41 +247,10 @@
                     <button
                       type="submit"
                       class="w-100 btn btn-primary btn-block mb-4"
+                      id="log"
                     >
                       Sign up
                     </button>
-
-                    <!-- Register buttons -->
-                    <div class="text-center">
-                      <p>or sign up with:</p>
-                      <button
-                        type="button"
-                        class="btn btn-link btn-floating mx-1"
-                      >
-                        <i class="fab fa-facebook-f"></i>
-                      </button>
-
-                      <button
-                        type="button"
-                        class="btn btn-link btn-floating mx-1"
-                      >
-                        <i class="fab fa-google"></i>
-                      </button>
-
-                      <button
-                        type="button"
-                        class="btn btn-link btn-floating mx-1"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </button>
-
-                      <button
-                        type="button"
-                        class="btn btn-link btn-floating mx-1"
-                      >
-                        <i class="fab fa-github"></i>
-                      </button>
-                    </div>
                   </form>
                 </div>
               </div>
