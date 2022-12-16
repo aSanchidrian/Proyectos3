@@ -10,7 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e4498ff-7299-43c0-8337-6d8263674116" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discotecas/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/discotecas/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/eventos/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabrik/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fabrik/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiestas/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fiestas/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kapital/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/kapital/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
